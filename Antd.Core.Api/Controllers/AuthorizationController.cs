@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Antd.Core.Api.Controllers
 {
     /// <summary>
-    /// 授权
+    /// 授权 1
     /// </summary>
     public class AuthorizationController : BaseController
     {

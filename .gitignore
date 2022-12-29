@@ -243,3 +243,4 @@ paket-files/
  
 .DS_Store
 /Antd.Core.Dto/bin
+/Antd.Core.Dto/obj

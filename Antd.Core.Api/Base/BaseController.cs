@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Antd.Core.Api.Controllers;
+namespace Antd.Core.Api.Base;
 
 /// <summary>
 /// 基础控制器

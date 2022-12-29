@@ -3,12 +3,12 @@ using Microsoft.Extensions.Configuration;
 namespace Antd.Core.Dto.Extensions
 {
     /// <summary>
-    /// 配置
+    /// 閰嶇疆
     /// </summary>
     public static class AppSettingExtensions
     {
         /// <summary>
-        /// 配置
+        /// 閰嶇疆
         /// </summary>
         private static IConfiguration? _config;
         /// <summary>
@@ -21,7 +21,7 @@ namespace Antd.Core.Dto.Extensions
         }
 
         /// <summary>
-        /// 读取指定节点的字符串
+        /// 璇诲彇鎸囧畾鑺傜偣鐨勫瓧绗︿覆
         /// </summary>
         /// <param name="sessions"></param>
         /// <returns></returns>
@@ -42,7 +42,7 @@ namespace Antd.Core.Dto.Extensions
         }
 
         /// <summary>
-        /// 读取实体信息
+        /// 璇诲彇瀹炰綋淇℃伅
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="session"></param>

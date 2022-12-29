@@ -1,7 +1,8 @@
 {
     "cSpell.words": [
         "Authinfo",
-        "Hmac"
+        "Hmac",
+        "Roleinfo"
     ],
     "files.autoGuessEncoding": true,
     "files.encoding": "utf8",

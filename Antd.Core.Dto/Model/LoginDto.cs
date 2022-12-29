@@ -13,10 +13,15 @@ namespace Antd.Core.Dto.Model
         /// <summary>
         /// ÓÃ»§Ãû
         /// </summary>
-        public string? UserName { get; set; }
+        public LoginDto(string userName, string passWord)
+        {
+            this.UserName = userName;
+            this.PassWord = passWord;
+        }
+        public string UserName { get; set; }
         /// <summary>
         /// ÃÜÂë
         /// </summary>
-        public string? PassWord { get; set; }
+        public string PassWord { get; set; }
     }
 }

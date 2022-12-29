@@ -16,7 +16,7 @@ namespace Antd.Core.Dto.Extensions
             services.AddControllers()
                 .AddJsonOptions(options =>
                 {
-                    options.JsonSerializerOptions.PropertyNamingPolicy = new JsonLowercaseNamingPolicy();
+                    options.JsonSerializerOptions.PropertyNamingPolicy = new JSONLowercaseNamingPolicy();
                 });
         }
     }

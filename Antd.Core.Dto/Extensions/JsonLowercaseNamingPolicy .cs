@@ -5,7 +5,7 @@ namespace Antd.Core.Dto.Extensions
     /// <summary>
     /// 小写
     /// </summary>
-    public class JsonLowercaseNamingPolicy : JsonNamingPolicy
+    public class JSONLowercaseNamingPolicy : JsonNamingPolicy
     {
         public override string ConvertName(string name) => name.ToLowerInvariant();
     }

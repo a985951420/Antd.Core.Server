@@ -1,3 +1,4 @@
+using Antd.Core.Api.Base;
 using Antd.Core.Dto;
 using Antd.Core.Dto.Model;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,7 @@ namespace Antd.Core.Api.Controllers
     /// <summary>
     /// 系统菜单
     /// </summary>
-    public class SystemController : BaseController
+    public class SystemController : AuthController
     {
         /// <summary>
         /// 系统菜单

@@ -16,6 +16,11 @@ public class ResultDto<TResult>
     /// 结果
     /// </summary>
     public string? Message { get; set; }
+    /// <summary>
+    /// 状态 CODE
+    /// </summary>
+    /// <value></value>
+    public int StatusCode { get; set; } = 200;
 }
 
 
@@ -49,7 +54,7 @@ public static class ResultTools
     /// <returns></returns>
     public static async Task<ResultDto<TResult>> Ok<TResult>(TResult values, string message = "")
     {
-        return await Task.FromResult(new ResultDto<TResult> { Success = true, Data = values, Message = message });
+        return await Task.FromResult(new ResultDto<TResult> { Success = true, Data = values, Message = message, StatusCode = 200 });
     }
     /// <summary>
     /// 错误返回
@@ -60,6 +65,6 @@ public static class ResultTools
     /// <returns></returns>
     public static async Task<ResultDto<TResult>> Error<TResult>(TResult value, string message = "")
     {
-        return await Task.FromResult(new ResultDto<TResult> { Success = false, Data = value, Message = message });
+        return await Task.FromResult(new ResultDto<TResult> { Success = false, Data = value, Message = message, StatusCode = 5000 });
     }
 }

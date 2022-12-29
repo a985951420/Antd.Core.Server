@@ -1,3 +1,4 @@
+using Antd.Core.Api.Base;
 using Antd.Core.Dto;
 using Antd.Core.Dto.Extensions;
 using Antd.Core.Dto.Helper;
@@ -7,9 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace Antd.Core.Api.Controllers
 {
     /// <summary>
-    /// 授权 1
+    /// 授权
     /// </summary>
-    public class AuthorizationController : BaseController
+    public class AuthorizationController : NotAuthController
     {
         /// <summary>
         /// 登录
@@ -19,8 +20,8 @@ namespace Antd.Core.Api.Controllers
         public async Task<ResultDto<string>> Login(LoginDto model)
         {
             if (model == null)
-                return await ResultTools.Error(string.Empty, "????????");
-            JWTExtensions jwt = new JWTExtensions();
+                return await ResultTools.Error(string.Empty, "参数异常！");
+            var jwt = new JWTExtensions();
             var token = jwt.GenerateToken(new AccountModel
             {
                 UserName = model.UserName,

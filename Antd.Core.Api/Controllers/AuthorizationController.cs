@@ -13,7 +13,7 @@ namespace Antd.Core.Api.Controllers
     public class AuthorizationController : NotAuthController
     {
         /// <summary>
-        /// 登录
+        /// 登录 
         /// </summary>
         /// <returns></returns> 
         [HttpPost]

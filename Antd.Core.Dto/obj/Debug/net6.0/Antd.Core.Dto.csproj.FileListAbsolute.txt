@@ -1,0 +1,12 @@
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\bin\Debug\net6.0\Antd.Core.Dto.deps.json
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\bin\Debug\net6.0\Antd.Core.Dto.dll
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\bin\Debug\net6.0\Antd.Core.Dto.pdb
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\Antd.Core.Dto.csproj.AssemblyReference.cache
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\Antd.Core.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\Antd.Core.Dto.AssemblyInfoInputs.cache
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\Antd.Core.Dto.AssemblyInfo.cs
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\Antd.Core.Dto.csproj.CoreCompileInputs.cache
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\Antd.Core.Dto.dll
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\refint\Antd.Core.Dto.dll
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\Antd.Core.Dto.pdb
+D:\project\repos\Antd-Core-Server\Antd.Core.Dto\obj\Debug\net6.0\ref\Antd.Core.Dto.dll

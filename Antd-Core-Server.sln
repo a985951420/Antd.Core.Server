@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antd.Core.Api", "Antd.Core.Api\Antd.Core.Api.csproj", "{36E1A70D-DEE1-4A4D-98A6-189580B68735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antd.Core.Dto", "Antd.Core.Dto\Antd.Core.Dto.csproj", "{359B2975-D2F0-4B29-8793-7C4A317C1112}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E1A70D-DEE1-4A4D-98A6-189580B68735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E1A70D-DEE1-4A4D-98A6-189580B68735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E1A70D-DEE1-4A4D-98A6-189580B68735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E1A70D-DEE1-4A4D-98A6-189580B68735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359B2975-D2F0-4B29-8793-7C4A317C1112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359B2975-D2F0-4B29-8793-7C4A317C1112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359B2975-D2F0-4B29-8793-7C4A317C1112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359B2975-D2F0-4B29-8793-7C4A317C1112}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
